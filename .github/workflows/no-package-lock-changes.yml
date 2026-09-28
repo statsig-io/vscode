@@ -6,7 +6,7 @@ permissions: {}
 jobs:
   main:
     name: Prevent package-lock.json changes in PRs
-    runs-on: ubuntu-latest
+    runs-on: blacksmith-2vcpu-ubuntu-2404
     steps:
       - name: Get file changes
         uses: trilom/file-changes-action@ce38c8ce2459ca3c303415eec8cb0409857b4272
